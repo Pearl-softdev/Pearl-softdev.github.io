@@ -1,0 +1,42 @@
+#about-me {
+    color: rgba(172, 30, 153, 0.836);
+    
+  }
+  
+  #container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    color: rgb(27, 23, 24);
+      
+
+  }
+  ul li{list-style-type: none;}
+  .projects article{padding-bottom: 20px;}  
+
+  ul li{list-style-type: none;}
+  .projects article{padding-top: 10px;} 
+  
+  ul li:hover{color: crimson;}
+  #page-header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    background-color: pink;
+    
+  }
+  
+  #nav-bar #main #footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+     
+  }
+  
+  #page-footer {
+      padding: 15px 0;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      text-align: center;
+      background-color: pink;
+  }
+  
